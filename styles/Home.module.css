@@ -114,3 +114,95 @@
     flex-direction: column;
   }
 }
+
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.1rem;
+  line-height: 1.5;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 36rem;
+  max-height: 36rem;
+  padding: 3rem;
+  /* background repeat caused by margin */
+  /* margin: 3rem auto 6rem; */
+  background-color: white;
+  /*
+  background-image: linear-gradient(340deg, #1c0938 50%, #B2FF59 120%);
+  */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Cellipse fill='none' stroke-width='157.1' stroke-opacity='0.11' id='a' rx='600' ry='450'/%3E%3C/defs%3E%3Cg transform='scale(0.964)' style='transform-origin:center'%3E%3Cg transform='rotate(14.4 0 0)' style='transform-origin:center'%3E%3Cg transform='rotate(-83.2 0 0)' style='transform-origin:center'%3E%3Cg transform='translate(1000 750)'%3E%3Cuse stroke='%230F9333' href='%23a' transform='rotate(-31.2 0 0) scale(0.688)'/%3E%3Cuse stroke='%2300943f' href='%23a' transform='rotate(-26 0 0) scale(0.74)'/%3E%3Cuse stroke='%2300954d' href='%23a' transform='rotate(-20.8 0 0) scale(0.792)'/%3E%3Cuse stroke='%2300965b' href='%23a' transform='rotate(-15.6 0 0) scale(0.844)'/%3E%3Cuse stroke='%2300976b' href='%23a' transform='rotate(-10.4 0 0) scale(0.896)'/%3E%3Cuse stroke='%2300977c' href='%23a' transform='rotate(-5.2 0 0) scale(0.948)'/%3E%3Cuse stroke='%2300978d' href='%23a'/%3E%3Cuse stroke='%2300979f' href='%23a' transform='rotate(5.2 0 0) scale(1.052)'/%3E%3Cuse stroke='%230097b1' href='%23a' transform='rotate(10.4 0 0) scale(1.104)'/%3E%3Cuse stroke='%230096c3' href='%23a' transform='rotate(15.6 0 0) scale(1.156)'/%3E%3Cuse stroke='%230095d4' href='%23a' transform='rotate(20.8 0 0) scale(1.208)'/%3E%3Cuse stroke='%230094e5' href='%23a' transform='rotate(26 0 0) scale(1.26)'/%3E%3Cuse stroke='%230093f5' href='%23a' transform='rotate(31.2 0 0) scale(1.312)'/%3E%3Cuse stroke='%230090ff' href='%23a' transform='rotate(36.4 0 0) scale(1.364)'/%3E%3Cuse stroke='%23008dff' href='%23a' transform='rotate(41.6 0 0) scale(1.416)'/%3E%3Cuse stroke='%23008aff' href='%23a' transform='rotate(46.8 0 0) scale(1.468)'/%3E%3Cuse stroke='%230085ff' href='%23a' transform='rotate(52 0 0) scale(1.52)'/%3E%3Cuse stroke='%23007eff' href='%23a' transform='rotate(57.2 0 0) scale(1.572)'/%3E%3Cuse stroke='%230077ff' href='%23a' transform='rotate(62.4 0 0) scale(1.624)'/%3E%3Cuse stroke='%23006dff' href='%23a' transform='rotate(67.6 0 0) scale(1.676)'/%3E%3Cuse stroke='%230060ff' href='%23a' transform='rotate(72.8 0 0) scale(1.728)'/%3E%3Cuse stroke='%236250ff' href='%23a' transform='rotate(78 0 0) scale(1.78)'/%3E%3Cuse stroke='%23913AFF' href='%23a' transform='rotate(83.2 0 0) scale(1.832)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-position: center;
+  /* background-position: right 50% top 100%; */
+  background-repeat: no-repeat;
+  
+
+  color: rgb(94, 94, 249);
+  text-align: center;
+  text-shadow: 
+                0 6px 1px rgba(245,245,220,.1),
+                0 0 5px rgba(245,245,220,.1),
+                0 1px 3px rgba(245,245,220,.3),
+                0 3px 5px rgba(245,245,220,.2),
+                0 5px 10px rgba(245,245,220,.25),
+                0 10px 10px rgba(245,245,220,.2),
+                0 20px 20px rgba(245,245,220,.15);
+                
+                
+  border-radius: 17rem;
+  box-shadow: 
+              0 6px 1px rgba(0,0,0,.1),
+              0 0 5px rgba(0,0,0,.1),
+              0 3px 5px rgba(0,0,0,.2),
+              0 20px 20px rgba(0,0,0,.15);
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #666;
+}
